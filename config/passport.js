@@ -14,7 +14,7 @@ passport.use(new GoogleStrategy({
 
     clientSecret:process.env.CLIENT_SECRET,//secret key used to authenticate application to google servers
 
-    callbackURL:'https://1a99-103-107-9-171.ngrok-free.app/auth/google/callback'// the url where google will redirect after the authentication
+    callbackURL:'https://nodejs-authentication-2rtn.onrender.com/auth/google/callback'// the url where google will redirect after the authentication
 
 },async(accessToken, refreshToken, profile, done)=>{// async callback function, is called after user successfully authenticate
     try{                                                //accesstoken grants access to the users data on google.// refreshToken used to get new access token
