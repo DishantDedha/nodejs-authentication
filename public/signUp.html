@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+       
+      </head>
+</head>
+<body>
+    <div class="container">
+        <h1>Create Account</h1>
+        <form id="signupForm">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="password" id="password" name="password" placeholder="PASSWORD" required>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="CONFIRMPASSWORD" required>
+            <div class="g-recaptcha" data-sitekey="6LeQK24qAAAAAO46g9_CqfImlLz2arzE7axf1qjf"></div>
+            <button type="submit">Sign Up</button>
+        </form>
+
+    </div>
+    <div class="others">
+    <p class="redirect"> Already have an Account?<a href="signIn.html">Sign In</a></p>
+    <button id="google-signup">Sign up with Google</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    background-color: #f1f3f4;
+}
+.container {
+           background-color: white;
+           width: 100%;
+           max-width: 400px;
+           padding:2rem;
+           border: 1px solid #dadce0;
+           border-radius: 8px;
+           text-align: center;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.container h1{
+    color: #202124;
+    font-size:1.5rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input[type="email"],
+input[type="password"]
+{
+    margin:8px 0;
+    font-size: 1rem;
+    padding:10px 12px;
+    border: 1px solid #dadce0;
+    background-color: #f1f3f4;
+    transition: background-color o.3s ease;
+
+}
+input[type="email"]:focus,
+input[type="password"]:focus{
+    outline: none;
+    background-color: #fff;
+    border-color: #4285f4;
+}
+button[type="submit"]{
+    background-color: #1a73e8;
+    color: white;
+    font-size:1rem;
+    padding:10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+button[type="submit"]:hover{
+    background-color: #155ab6;
+}
+
+.redirect a{
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 500;
+}
+.redirect a:hover{
+    text-decoration: underline;
+}
+.others{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+#google-signup{
+    width:150px;
+    height:70px;
+    margin:20px;
+    font-size: 17px;
+    background-color: rgb(246, 239, 239);
+    cursor:pointer;
+
+}
+#google-signup:hover{
+    background-color: rgb(220, 178, 178);
+}
+#google-signin{
+    width:150px;
+    height:70px;
+    margin:20px;
+    font-size: 17px;
+    background-color: rgb(246, 239, 239);
+    cursor:pointer;
+
+}
+#google-signin:hover{
+    background-color: rgb(220, 178, 178);
+}
+.home-container {
+    background-color: rgb(44, 58, 137);
+    width: 100%;
+    max-width: 400px;
+    padding:2rem;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    text-align: center;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+#reset-password:hover{
+    background-color: rgb(220, 178, 178);
+}
+#signout,#reset-password,#forget-password{
+    width:150px;
+    height:70px;
+    margin:20px;
+    font-size: 17px;
+    background-color: rgb(246, 239, 239);
+    cursor:pointer;
+}
+#signout:hover{
+    background-color: rgb(220, 178, 178);
+}
+#forget-password:hover{
+    background-color: rgb(220, 178, 178);
+}
